@@ -1,0 +1,115 @@
+html, body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: rgb(233, 72, 72);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 55px;
+  padding: 5px;
+
+}
+
+header > img {
+  padding: 10px;
+  width: 35px;
+}
+
+header > h1 {
+  /* font-size: x-large; */
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: Inter;
+}
+
+.container {
+  /* margin: auto; */
+  justify-items: center;
+}
+
+ main {
+  flex-basis: 225px;
+/*   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25); */
+  border-radius: 5px; 
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  padding-bottom: 20px;
+  background-color: white;
+  width: 45rem; 
+  margin: auto;
+/*   justify-content: center;
+  align-items: center; */
+}
+
+article.journal-entry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article.journal-entry .marker {
+  width: 10px;
+  margin-right: 5px;
+}
+
+.info-container span.country {
+  font-size: 1rem;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 1.5;
+  text-transform: uppercase;
+
+}
+
+/* article.journal-entry .main-image-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-right: 17px;
+
+} */
+
+article.journal-entry .main-image {
+  width: 250px;  /* Set a specific width */
+  height: 250px; /* Set a specific height */
+  object-fit: contain;  /* This ensures the image fits within the container without cropping or zooming */
+  /* padding-right: 2px; */
+  /* margin-right: 3px; */
+}
+
+
+article.journal-entry .info-container p {
+  font-size: 1rem; /* Ensure consistent text size */
+}
+
+.info-container p.trip-dates {
+  font-weight: bold;
+  font-size: large;
+}
+
+a{
+  color :rgb(110, 108, 108);
+  padding-left: 10px;
+}
+
+h2 {
+  margin-top: 6px;
+  font-size: 1.2rem;  /* Use rem for consistent scaling */
+}
+
+hr {
+  border-top: 1px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
